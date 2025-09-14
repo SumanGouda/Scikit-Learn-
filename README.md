@@ -1,84 +1,115 @@
-# 📘 Scikit-Learn 4-Week Learning Journey
+# Machine Learning with scikit-learn - Learning Repository
 
-This repository contains my structured **4-week plan** to master [scikit-learn](https://scikit-learn.org/) for machine learning, along with the essential math required to understand each model. Each week is divided into daily lessons and practical exercises.
-
----
-
-## 📅 Weekly Structure
-
-Each week focuses on a key part of the ML workflow using scikit-learn, with math lessons running in parallel.
-
-| Week | Focus Area | Topics Covered |
-|------|-------------|----------------|
-| [Week 1](./Week_1_Basics/Week_1_Scikit_Learn_Intro_to_Basics.ipynb) | Core ML Concepts | Linear Regression, KNN, Decision Tree, Accuracy, Train/Test Split |
-| [Week 2](./Week_2_Pipelines/Week_2_Scikit_Learn_Pipelines_and_CV.ipynb) | Preprocessing & Pipelines | Encoding, Scaling, Imputation, Pipelines, Cross-validation |
-| [Week 3](./Week_3_Tuning/Week_3_Model_Tuning_Evaluation.ipynb) | Model Tuning & Evaluation | GridSearchCV, ROC/AUC, F1 Score, Logistic Regression, SVM |
-| [Week 4](./Week_4_Ensembles/Week_4_Advanced_and_Projects.ipynb) | Advanced Models & Projects | Random Forest, Gradient Boosting, Voting, Deployment Prep |
-
----
-
-## 🧠 Math Topics Covered
-
-Each week includes a parallel math session to build the theoretical foundation:
-
-- Mean, MSE, R², Euclidean distance
-- Entropy, Gini impurity
-- Precision, Recall, F1 Score
-- ROC/AUC, Sigmoid function
-- Feature importance, gradient descent basics
-
----
-
-## 🛠️ Folder Structure
-
-scikit-learn-learning/
-├── Week_1_Basics/
-│ └── Week_1_Scikit_Learn_Intro_to_Basics.ipynb
-├── Week_2_Pipelines/
-│ └── Week_2_Scikit_Learn_Pipelines_and_CV.ipynb
-├── Week_3_Tuning/
-│ └── Week_3_Model_Tuning_Evaluation.ipynb
-├── Week_4_Ensembles/
-│ └── Week_4_Advanced_and_Projects.ipynb
-├── data/
-│ └── (All datasets used in practice)
-├── images/
-│ └── (Charts, plots, visuals)
-├── Projects/
-│ └──
-└── README.md
+## Repository
+### 📁 Repository Overview
+<br>
+This repository contains my personal learning journey and projects exploring machine learning concepts using Python's scikit-learn library. It serves as a collection of implementations, experiments, and notes as I develop my skills in machine learning.
 
 
 ---
 
-## ✅ Goals
-
-- Build a strong foundation in machine learning using `scikit-learn`
-- Understand the math behind models and metrics
-- Create clean, reusable code for future ML projects
-- Develop end-to-end pipelines from preprocessing to deployment
-
----
-
-## 📌 Note
-
-All notebooks contain:
-- 📓 Daily subheadings for lessons
-- ✅ Practice exercises with real datasets
-- 📊 Visualizations using `matplotlib` and `seaborn`
-- 🔍 Step-by-step explanations of model behavior
+## 📁 Folder Structure
+SumanGouda/
+├── .vscode/                 # VS Code configuration files
+├── FEATURE CONSTRUCTION/    # Feature engineering techniques and implementations
+├── FEATURE TRANSFORMATION/  # Data preprocessing and transformation methods
+├── LINEAR REGRESSION/       # Linear regression models and experiments
+├── LOGISTIC REGRESSION/     # Classification models using logistic regression
+├── MATHS/                   # Mathematical foundations for machine learning
+└── README.md               # This file
 
 ---
 
-## 🔗 Resources
+## 🚀 What's Inside
 
-- [scikit-learn documentation](https://scikit-learn.org/stable/documentation.html)
-- [Matplotlib](https://matplotlib.org/)
-- [NumPy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Kaggle Datasets](https://www.kaggle.com/datasets)
+### 🔧 Feature Construction
+- Techniques for creating new features from existing data
+
+- Feature engineering best practices
+
+- Hands-on implementations with real datasets
+
+### ⚙️ Feature Transformation
+- Data preprocessing methods (scaling, normalization)
+
+- Handling missing values and outliers
+
+- Categorical variable encoding techniques
+
+
 
 ---
+
+### 📈 Linear Regression
+- Implementation of linear regression models
+
+- Model evaluation and validation techniques
+
+- Real-world regression problems
+
+### 🎯 Logistic Regression
+- Binary and multiclass classification problems
+
+- Model training and hyperparameter tuning
+
+- Performance metrics and evaluation
+
+### 🧮 Maths
+- Mathematical foundations for machine learning
+
+- Linear algebra, calculus, and statistics concepts
+
+- Theory behind ML algorithms
+
+### 🛠️ Technologies Used
+- Python - Primary programming language
+
+- scikit-learn - Machine learning library
+
+- pandas - Data manipulation and analysis
+
+- numpy - Numerical computing
+
+- matplotlib/seaborn - Data visualization
+
+- Jupyter Notebooks - Interactive coding environment
+
+### 📊 Projects & Datasets
+- This repository includes work with various datasets including:
+
+- Heart disease dataset (clinical data analysis)
+
+- Price prediction datasets
+
+- Various other real-world datasets for practice
+
+### 🎯 Learning Objectives
+- Master scikit-learn library functionality
+
+- Understand end-to-end ML project workflow
+
+- Develop skills in data preprocessing and feature engineering
+
+- Learn model evaluation and validation techniques
+
+- Build practical experience with real-world datasets
+
+### 📝 Usage
+- To explore any of the concepts or projects:
+
+- Navigate to the specific folder of interest
+
+- Check the Jupyter notebooks or Python files
+
+- Review the code and comments for explanations
+
+- Run the code to see the implementations in action
+
+### 🔄 Continuous Learning
+- This repository is actively maintained and updated as I continue my machine learning journey. New concepts, techniques, and projects are added regularly.
+
+- This repository represents my personal learning path in machine learning and serves as a reference for future projects and concepts.
+
 
 **Made with ❤️ by Suman**  
 *Aspiring AI Engineer*
