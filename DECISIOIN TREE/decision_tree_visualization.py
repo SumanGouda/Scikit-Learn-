@@ -57,7 +57,6 @@ if df is not None:
         # If no error, both are numerical
         st.success("✅ Both features are numerical - ready to train!")
         
-        # Your model code here
         error = {}
         for i in range(df[feature1].shape[0] - 1):
             avg_x = (df[feature1][i] + df[feature1][i + 1]) / 2
@@ -74,15 +73,12 @@ if df is not None:
         # Find the minimum error
         min_error = min(error.values())
         
-        
-        # Plot the decision tree
-            
         # Plot the error
         plt.figure(figsize=(10, 6))
         plt.plot(list(error.keys()), list(error.values()), 'ro')
         plt.xlabel(feature1)
         plt.ylabel("SSE")
-        st.pyplot(plt.gcf())  # Add this line
+        st.pyplot(plt.gcf())  
                 
         
         
